@@ -1,0 +1,99 @@
+/*全てのページに適用*/
+
+/*文字コードを設定*/
+@charset "utf-8";
+
+/*全体に適用するフォント*/
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111;
+}
+
+/*ヘッダー構築*/
+body,
+ul {
+  margin: 0;
+}
+.header_main {
+  padding: top;
+  text-align: center;
+  background-color: #010101;
+  color: azure;
+}
+.header_main > .container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .area_logo_header .main_logo img {
+    display: none;
+  }
+}
+.area_logo_header .main_logo {
+  display: block;
+}
+.area_logo_header .main_logo img {
+  margin-left: 20px;
+  height: 25px;
+  vertical-align: bottom;
+}
+.area_nav_header {
+  margin-left: auto;
+  padding: 0 25px;
+}
+/*項目に適用するCSS*/
+.list_nav_header {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.list_nav_header a {
+  color: azure;
+  text-decoration: none;
+}
+.list_nav_header .btn_fool {
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  padding: 0 18px;
+  background: floralwhite;
+  border-radius: 10px;
+}
+.list_nav_header li:not(:first-of-type) {
+  margin-left: 40px;
+}
+
+/*フッターの構成*/
+footer {
+  background-color: lightgray;
+  color: darkslategray;
+  padding: 5px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-menu_list {
+  line-height: 60px;
+  list-style: none;
+  text-align: center;
+}
+.footer-menu_list li:not(:first-of-type) {
+  margin-left: 20px;
+}
+.footer-menu_list a {
+  text-decoration: none;
+  color: darkslategray;
+}
+.footer-menu_list li {
+  display: inline;
+}
+.copyright {
+  text-align: center;
+}
+
+/*全てのページに適用*/
