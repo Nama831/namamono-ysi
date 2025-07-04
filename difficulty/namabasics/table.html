@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -92,9 +93,9 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Mocha
-                    $("<td width='8%'>" +
+                    $("<td width='45%'>" +
                         "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>"+
-                        '<img src="./assets/mocha.png" alt="mochaIR link">'
+                        '<img class="mocha" src="./assets/mocha.png" alt="mochaIR link">'
                         +"</a></td>").appendTo(str);
 
                     // Artist
