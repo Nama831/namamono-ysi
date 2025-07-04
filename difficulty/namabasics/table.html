@@ -92,8 +92,10 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Mocha
-                    $("<td width='45%'>" +
-                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>" + "<img src="画像のパス" alt="テキスト">" + "</a></td>").appendTo(str);
+                    $("<td width='8%'>" +
+                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>"+
+                        '<img src="./assets/mocha.png" alt="mochaIR link">'
+                        +"</a></td>").appendTo(str);
 
                     // Artist
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
