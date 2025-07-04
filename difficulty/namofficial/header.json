@@ -1,0 +1,5 @@
+{
+"name" : "Namachart",
+"symbol" : "nc",
+"data_url" : "./score.json"
+}

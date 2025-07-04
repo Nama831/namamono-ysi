@@ -1,0 +1,5 @@
+{
+"name" : "Namachart Recommend",
+"symbol" : "nc",
+"data_url" : "./score_rec.json"
+}
