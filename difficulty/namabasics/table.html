@@ -64,7 +64,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Mocha</th><th>Artist</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -90,6 +90,10 @@
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+
+                    // Mocha
+                    $("<td width='45%'>" +
+                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>" + "<img src="画像のパス" alt="テキスト">" + "</a></td>").appendTo(str);
 
                     // Artist
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
