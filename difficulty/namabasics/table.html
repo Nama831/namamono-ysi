@@ -64,7 +64,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Lv.</th><th>Song</th><th>Artist</th><th>Mocha</th><th>MinIR</th><th>DL</th><th>Chart</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Lv.</th><th>Song</th><th>Artist</th><th>Mocha</th><th>MinIR</th><th>DL</th><th>Chart</th><th>Video</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -86,7 +86,7 @@
                     $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
                     // Song
-                    $("<td width='35%'>" +
+                    $("<td width='30%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
@@ -117,6 +117,12 @@
                     $("<td width='5%'>" +
                         "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>"+
                         '<img src="./assets/Chart.png" alt="Chart View">'
+                        +"</a></td>").appendTo(str);
+
+                    // Video
+                    $("<td width='5%'>" +
+                        "<a href='" + info[i].video + "' target='_blank'>"+
+                        '<img src="play.png" alt="Play Movie">'
                         +"</a></td>").appendTo(str);
 
                     // Comment
