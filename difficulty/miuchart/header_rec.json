@@ -1,0 +1,5 @@
+{
+"name" : "Miuchart Recommend",
+"symbol" : "mc",
+"data_url" : "./score_rec.json"
+}

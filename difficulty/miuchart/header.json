@@ -1,0 +1,5 @@
+{
+"name" : "Miuchart",
+"symbol" : "mc",
+"data_url" : "./score.json"
+}
