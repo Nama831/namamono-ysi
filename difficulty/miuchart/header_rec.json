@@ -1,5 +1,5 @@
 {
 "name" : "Miuchart Recommend",
 "symbol" : "mc",
-"data_url" : "./score_rec.json"
+"data_url" : "https://script.google.com/macros/s/AKfycbxIi9f5zX-CpfC72v1ONB1A6YvS02ods8oFRiaZqhPYTXTGJFTt9vU8ZGtiyt-sUN1Atw/exec"
 }
