@@ -92,7 +92,7 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='24%'>" +
+                    $("<td width='20%'>" +
                         "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
 
                     // Mocha
@@ -108,13 +108,13 @@
                         +"</a></td>").appendTo(str);
 
                     // DL
-                    $("<td width='8%'>" +
+                    $("<td width='5%'>" +
                         "<a href='" + info[i].url_diff + "' target='_blank'>"+
                         '<img src="./assets/DL.png" alt="Chart Download Link"'
                         +"</a></td>").appendTo(str);
                     
                     // Chart
-                    $("<td width='8%'>" +
+                    $("<td width='5%'>" +
                         "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>"+
                         '<img src="./assets/Chart.png" alt="Chart View">'
                         +"</a></td>").appendTo(str);
