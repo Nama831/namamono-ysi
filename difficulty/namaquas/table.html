@@ -60,13 +60,13 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Lv.</th><th>Song</th><th>Artist</th><th>Mocha</th><th>MinIR</th><th>DL</th><th>Chart</th><th>Video</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
                     if (x != info[i].level) {
                         if (obj_sep != null) {
-                            obj_sep.html("<td colspan='4'>" + "<b>" + mark + x + " (" + count +
+                            obj_sep.html("<td colspan='255'>" + "<b>" + mark + x + " (" + count +
                                 "譜面)</b></td>");
                         }
                         obj_sep = $("<tr class='table-dark' style='text-align:center' id='" + mark + info[i].level +
@@ -78,20 +78,51 @@
 
                     var str = $("<tr></tr>");
 
-                    // Level
+                    // Lv.
                     $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
-                    // Title
-                    $("<td width='45%'>" +
+                    // Song
+                    $("<td width='30%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
+                    $("<td width='20%'>" +
+                        "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
+
+                    // Mocha
+                    $("<td width='5%'>" +
+                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>"+
+                        '<img src="./assets/mocha.png" alt="mochaIR link">'
+                        +"</a></td>").appendTo(str);
+
+                    // MinIR
+                    $("<td width='5%'>" +
+                        "<a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0" + "' target='_blank'>"+
+                        '<img src="./assets/MinIR.png" alt="MinIR link">'
+                        +"</a></td>").appendTo(str);
+
+                    // DL
+                    $("<td width='5%'>" +
+                        "<a href='" + info[i].url_diff + "' target='_blank'>"+
+                        '<img src="./assets/DL.png" alt="Chart Download Link"'
+                        +"</a></td>").appendTo(str);
+                    
+                    // Chart
+                    $("<td width='5%'>" +
+                        "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>"+
+                        '<img src="./assets/Chart.png" alt="Chart View">'
+                        +"</a></td>").appendTo(str);
+
+                    // Video
+                    $("<td width='5%'>" +
+                        "<a href='" + info[i].video + "' target='_blank'>"+
+                        '<img src="./assets/play.png" alt="Play Movie">'
+                        +"</a></td>").appendTo(str);
 
                     // Comment
-                    $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
@@ -99,7 +130,7 @@
                 $("</tbody>").appendTo(obj);
 
                 if (obj_sep != null) {
-                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='4'>" + "<b>" + mark + x +
+                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='255'>" + "<b>" + mark + x +
                         " (" + count + "譜面)</b></td>");
                 }
             }
