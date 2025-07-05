@@ -64,7 +64,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Mocha</th><th>MinIR</th><th>Artist</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Mocha</th><th>MinIR</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -91,6 +91,10 @@
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
+                    // Artist
+                    $("<td width='24%'>" +
+                        "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
+
                     // Mocha
                     $("<td width='5%'>" +
                         "<a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'>"+
@@ -102,9 +106,6 @@
                         "<a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0" + "' target='_blank'>"+
                         '<img src="./assets/MinIR.png" alt="MinIR link">'
                         +"</a></td>").appendTo(str);
-
-                    // Artist
-                    $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
                     $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
