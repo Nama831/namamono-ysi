@@ -1,0 +1,463 @@
+{
+"name" : "Namaqlass",
+"symbol" : "生",
+"data_url" : "https://script.google.com/macros/s/AKfycbzXRMRqxhChLo6OxouvXHhDmvnhXRGCF6EYs2bmT_QotB5drCj-zhwiF9mCa936hK8P1g/exec",
+"course": [
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常六段",
+		"hash": [
+			{
+				"title": "orange tea　[7key/Hyper]",
+				"genre": "Lounge Pop",
+				"artist": "Ym1024",
+				"md5": "820bb9ecec77be53c6c736b27735555f",
+				"sha256": "ab79473cc137998a093e95e3966949206377db95962e608b661eb079cf6b4347",
+				"content": 3,
+				"stagefile": "_title.bmp",
+				"charthash": "c2dd36ae8efbca1c02b65a106627398193c20ff1ff2fd84c5c3490dd876f26a9"
+			},
+			{
+				"title": "Akasagarbha",
+				"subtitle": "[HYPER]",
+				"genre": "MULTIVERSE",
+				"artist": "wa. vs ETIA.",
+				"subartist": "deadblue238",
+				"md5": "0b72c1195d8a527c8772d76bf8e50e0f",
+				"sha256": "af3438f265b1690a322cef207023a2274724958e247974c5975484cb8d87eccc",
+				"content": 3,
+				"stagefile": "_title.png",
+				"charthash": "c9c77d5f1d3622e28c0c0ba6fe8ebc8ebd5e9e7bc0851a7a11a159ed153ebf3c"
+			},
+			{
+				"title": "EVERLASTING HAPPiNESS↑",
+				"subtitle": "[HYPER]",
+				"genre": "HAPPY HARDCORE",
+				"artist": "psi",
+				"md5": "93b369261cb5d0f1ab83a23d0f6616e1",
+				"sha256": "c36f1ba38102c5d90f55e172cab4d9f0aff2100501f4a7364c65e2cfe01e6c3a",
+				"content": 3,
+				"charthash": "16ecc40442db466f75429965dc8cfa5f14a6bdb37d12316b650afb30048083a7"
+			},
+			{
+				"title": "eth剣",
+				"genre": "BOKKEN FUSION",
+				"artist": "BOKKEN PINK",
+				"subartist": "BOKKEN DODOME+MAGENTA",
+				"md5": "0fea08e935618033e2218858ec398cc0",
+				"sha256": "b725c383dfbb6768fad1aaf778d49c05985ba7620c75be86f5978ae957e0136c",
+				"content": 3,
+				"backbmp": "ethken_backbmp.png",
+				"charthash": "dcebd26a4a86c392bcbc0e9d38f8e6386bbe54fe0ecdbd782c953ac88b4c0628"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	},
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常七段",
+		"hash": [
+			{
+				"title": "Berry Go!! [HYPER]",
+				"genre": "HYBRID J-POP",
+				"artist": "Freezer feat. 妃苺",
+				"md5": "d56a17c83c1ced0178587cb9c151bfa2",
+				"sha256": "a9899d42bdcafc3116dfcf7cbeec7bdfb7fca6d64100a04eed81754e55eb2d00",
+				"content": 3,
+				"charthash": "e4bc76c4d9b47061c8dd7c957c36770c5e0747e8894a431c8156859ebd9421ce"
+			},
+			{
+				"title": "Odin[Hyper]",
+				"genre": "Classical Trance",
+				"artist": "しらいし",
+				"md5": "5370a5c43911706ae4bb7898b55b28fb",
+				"sha256": "b1e1257218688daf7c15afd6ee50c78dea98e70a7e9c73b64df04f5128b64f85",
+				"content": 2,
+				"stagefile": "stage.bmp",
+				"charthash": "1861dd31a764a5290801d4d5775ab9eace90e6b45fe918fb7b4d508c91ff5dc6"
+			},
+			{
+				"title": "ULTRA MEGA HAPPY PARTY!!![HYPER]",
+				"genre": "HAPPY HARDCORE",
+				"artist": "翡乃イスカ",
+				"md5": "b92eca589905fa691815b492172a864c",
+				"sha256": "e61908927207bc8ce024a3d9716fc1ed67eaffda02db448492c961154814c42a",
+				"content": 2,
+				"charthash": "1e9a87405e6d38480525cdfb8e6a4c0d2c6f6cdcfa2510ca34869fcb81b30080"
+			},
+			{
+				"title": "KISS CANDY FLAVOR(HYPER)",
+				"genre": "TECHNO POP",
+				"artist": "カラフル・サウンズ・ポート",
+				"md5": "e8d0f57763e2fad10ff93b59d5e14725",
+				"sha256": "71c6c36517039664875c0402fb1000715d9e224cd74755ef35d0b3dcb3aae515",
+				"content": 2,
+				"stagefile": "kiss_title.jpg",
+				"charthash": "ad89c429c40a430e188166d170c0001f966b9d32464c5337fd8d01713ebfd512"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	},
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常八段-案1",
+		"hash": [
+			{
+				"title": "俗物フェスティバル[HYPER]",
+				"genre": "Self-introduction",
+				"artist": "Micelle feat.Yshida",
+				"md5": "a45c28522052b8920bc2b00ffa436424",
+				"sha256": "6d7ad90796b2bb8f361acc4b478f7b60efba31e45104665bf11bed309f57ea4f",
+				"content": 3,
+				"stagefile": "_Title.png",
+				"backbmp": "_Backbmp.png",
+				"banner": "_Banner.png",
+				"charthash": "5c788570b794a8625c0c4ad7e3bea8633ac339751ab176cb5819259a0ede2ed0"
+			},
+			{
+				"title": "Lyrith -迷宮リリス-[ANOTHER]",
+				"genre": "IRON MAIDEN",
+				"artist": "ユメミド",
+				"subartist": "Movie:テンソル / Illust:遥壱朗 / Arrange:LeaF",
+				"md5": "c2674f757a9377f6d9083342b5061034",
+				"sha256": "5c6615602dec96e974ab58d705f4b83b39443209099b9cf271c0fbe8a331b6f9",
+				"content": 3,
+				"stagefile": "_title.png",
+				"backbmp": "_backbmp.png",
+				"banner": "_banner.png",
+				"charthash": "a8f7157d1835ea95eeccf82154407b8a602b44bf5fc78e56518808de7e455f61"
+			},
+			{
+				"title": "運命論",
+				"genre": "CONDUCTOR[MODERATE]",
+				"artist": "ルゼ ☆ えみゅう。 ☆ 石王マサト",
+				"md5": "68188cbf856c0cffcd12ef8d2b5212ae",
+				"sha256": "b67f6e93beafc33e990d32efdfc2e32607bb0d4524ce5c00dc295af34305c3ec",
+				"content": 3,
+				"stagefile": "unmei_bg.png",
+				"backbmp": "unmei_bk.bmp",
+				"banner": "unmei_bn_m.bmp",
+				"charthash": "feb2fcd0893997b4bf14ff91c208773a50165154048f98ab83647ad6fdc55487"
+			},
+			{
+				"title": "PANIC! BOUNCE!! ATTACK!!!",
+				"subtitle": "[SP HARD]",
+				"genre": "BUNNY! BOUNCE!! KITTY!",
+				"artist": "ptar124",
+				"subartist": "BGA: Yumemochi, OBJ: w",
+				"md5": "ad5550c67104cf1005814b5cae8a2ef2",
+				"sha256": "d42c0eee9bb0a5c6282c526681c31b4c8e8265e03752442062635f5ce3d85e9f",
+				"content": 3,
+				"stagefile": "stagefile.png",
+				"banner": "banner.png",
+				"charthash": "a80c32a9319cd6c7cb192f0a50f3ba080835f6de2ff5ed87538458da1ccfa498"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	},
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常八段-案2",
+		"hash": [
+			{
+				"title": "俗物フェスティバル[HYPER]",
+				"genre": "Self-introduction",
+				"artist": "Micelle feat.Yshida",
+				"md5": "a45c28522052b8920bc2b00ffa436424",
+				"sha256": "6d7ad90796b2bb8f361acc4b478f7b60efba31e45104665bf11bed309f57ea4f",
+				"content": 3,
+				"stagefile": "_Title.png",
+				"backbmp": "_Backbmp.png",
+				"banner": "_Banner.png",
+				"charthash": "5c788570b794a8625c0c4ad7e3bea8633ac339751ab176cb5819259a0ede2ed0"
+			},
+			{
+				"title": "Lyrith -迷宮リリス-[ANOTHER]",
+				"genre": "IRON MAIDEN",
+				"artist": "ユメミド",
+				"subartist": "Movie:テンソル / Illust:遥壱朗 / Arrange:LeaF",
+				"md5": "c2674f757a9377f6d9083342b5061034",
+				"sha256": "5c6615602dec96e974ab58d705f4b83b39443209099b9cf271c0fbe8a331b6f9",
+				"content": 3,
+				"stagefile": "_title.png",
+				"backbmp": "_backbmp.png",
+				"banner": "_banner.png",
+				"charthash": "a8f7157d1835ea95eeccf82154407b8a602b44bf5fc78e56518808de7e455f61"
+			},
+			{
+				"title": "運命論",
+				"genre": "CONDUCTOR[MODERATE]",
+				"artist": "ルゼ ☆ えみゅう。 ☆ 石王マサト",
+				"md5": "68188cbf856c0cffcd12ef8d2b5212ae",
+				"sha256": "b67f6e93beafc33e990d32efdfc2e32607bb0d4524ce5c00dc295af34305c3ec",
+				"content": 3,
+				"stagefile": "unmei_bg.png",
+				"backbmp": "unmei_bk.bmp",
+				"banner": "unmei_bn_m.bmp",
+				"charthash": "feb2fcd0893997b4bf14ff91c208773a50165154048f98ab83647ad6fdc55487"
+			},
+			{
+				"title": "ZENITHALIZE [SP ANOTHER]",
+				"genre": "FULL ON",
+				"artist": "姉ヶ崎 寧々",
+				"subartist": "BGA : photonskyto",
+				"md5": "311177dd7bad3b57b02fb379d5cd2fbe",
+				"sha256": "95d2058d952c8e5a046ce57bffed9c89340a064e89cdd384b50d534807df1b9f",
+				"content": 3,
+				"stagefile": "zeni_logo.bmp",
+				"charthash": "c7e3ec7d6b896f257aa237b748c0e7ff234e7ec6c46aa8eca912c50923396fa5"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	},
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常九段",
+		"hash": [
+			{
+				"title": "Brand-New Sky[ANOTHER]",
+				"genre": "Future HappyCore",
+				"artist": "みーに feat.初音ミク",
+				"md5": "ed99e9080cf797ad9dd1635d3e1e9b7c",
+				"sha256": "6d03f4703d6bd089402e22d834c8abd3ed8536452c7080e31dba8d792f9a0245",
+				"content": 3,
+				"charthash": "53512a84f035d07a32493cbe471baa486495816ea3aa9633739043c344aff0ac"
+			},
+			{
+				"title": "∀77∀H7∀Λ",
+				"subtitle": "[SP Hyper]",
+				"genre": "Progressive",
+				"artist": "しるい",
+				"subartist": "BGA : Nima/いかお",
+				"md5": "0b058ddebb0013d8977e90696f17484a",
+				"sha256": "e91411919b8c61aec45c53ee7a99b580408ad77ee346f811f39d61ffc2a2711a",
+				"content": 3,
+				"stagefile": "_stagefile.jpg",
+				"backbmp": "_val.png",
+				"banner": "_banner.jpg",
+				"charthash": "d4b6e541367c38d63a3e1fd6f351a2e038a1e2b9ce162f7f916a5dbd7291e12b"
+			},
+			{
+				"title": "DIGITAL DIVER 20XX［FUTURE］",
+				"genre": "Synthwave",
+				"artist": "くるぶっこちゃん",
+				"subartist": "Movie:サム",
+				"md5": "b434d831df082ccdd560d0bf82bb1797",
+				"sha256": "e0e2cde971b50329fc6607f79be5a99edf0e84c78db05cca63ce5fccabd10d0a",
+				"content": 3,
+				"stagefile": "stagefile.jpg",
+				"charthash": "94d6762d0e03a7bd0fc46442b8c4609dd1c8dc55127b8235398836389003570d"
+			},
+			{
+				"title": "星の器～STAR OF ANDROMEDA(ANOTHER)",
+				"genre": "GOA TRANCE",
+				"artist": "ZUN (Arr.sun3)",
+				"md5": "f8dcdfe070630bbb365323c662561a1a",
+				"sha256": "a6ed343ac9db07af0dd6eb8af3c80d79032aa777fd7ff2c28feb885717f47b89",
+				"content": 3,
+				"charthash": "5e3c2e8bc5508049c5d43d3c50947c30ad7c64f356308e6bc1cade9a6ee8140a"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	},
+	{
+		"class": "bms.player.beatoraja.CourseData",
+		"name": "KUR4GE通常九+段",
+		"hash": [
+			{
+				"title": "アリスの空虚で愉快な人形劇",
+				"genre": "Fantoccini",
+				"artist": "ろうて",
+				"favorite": 2,
+				"md5": "62d20a2ca21dd96d4f5a6d04a05e57d0",
+				"sha256": "4f4d6d27d0a4eeedc977279d457201cc090257dee4fd17c8990e6694ed1ed3fd",
+				"content": 3,
+				"charthash": "da5fe1bc99fbf2dec8cae5dde6cc19a328ec38ce942113e3f86fc4c713c43ce2"
+			},
+			{
+				"title": "桜花爛漫の墓標",
+				"genre": "HARD DANCE",
+				"artist": "Hayden",
+				"favorite": 2,
+				"md5": "a7aed017352eea44490f97a66a83bd10",
+				"sha256": "f6419b52e73382ca4411ff8689ab07e98a98e59180d0a7392628f92b89fb1fdf",
+				"content": 3,
+				"charthash": "5414adaab33c3e66c5f0b5dcc432839c3127f3d1a612f82079777a1f3a9a5e1f"
+			},
+			{
+				"title": "Hyper White [7key/Extra]",
+				"genre": "Uplifting Trance",
+				"artist": "Ym1024",
+				"subartist": "Movie : highluin / obj : monaka",
+				"md5": "2ed4f1ee206c07bc2169f1ca0b64f8db",
+				"sha256": "e1971edf549314e01a88f1250c96fae8a17b776bb2f168b2f1e3a5d02fd14856",
+				"content": 3,
+				"stagefile": "title.png",
+				"banner": "banner.png",
+				"charthash": "cd6723a329ac2af7b1e064408fda898ae748e92a1908852fa9658b2deff8fe21"
+			},
+			{
+				"title": "The Panorama[EX]",
+				"genre": "Urban Electro",
+				"artist": "Junk/さ",
+				"md5": "2d4c2770b3a9e63e86bbe978ea968a3f",
+				"sha256": "6a5c4e60b999149256513314c2a4967da0f911a2be5b9cd90441ef3ec892fa98",
+				"content": 3,
+				"stagefile": "title01.bmp",
+				"charthash": "02aed543aacfd735ad1c1ec045be4cf621361e4e2618d9d0f620b7fc308ed60b"
+			}
+		],
+		"constraint": [
+			"CLASS",
+			"GAUGE_LR2",
+			"LN"
+		],
+		"trophy": [
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "bronzemedal",
+				"missrate": 7.5,
+				"scorerate": 55
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "silvermedal",
+				"missrate": 5,
+				"scorerate": 70
+			},
+			{
+				"class": "bms.player.beatoraja.CourseData$TrophyData",
+				"name": "goldmedal",
+				"missrate": 2.5,
+				"scorerate": 85
+			}
+		],
+		"release": false
+	}
+]
+}
